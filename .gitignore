@@ -1,7 +1,19 @@
+# Ignore everything by default
+*
+
+# Keep only the project files we want in Git
+!/.gitignore
+!/file.ipynb
+!/defects.csv
+!/План_проекта_анализ_дефектов.md
+!/Результаты_исследования_по_этапам.md
+!/Термины_и_методы_для_проекта.md
+!/Вопросы_для_интервью_с_заказчиком.md
+
+# Also keep common local folders out of Git if they appear
 .venv/
 venv/
 __pycache__/
 .ipynb_checkpoints/
 .DS_Store
 .idea/
-.gitignore
